@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "sass ./src/main.scss ./public/css/main.css",
-    "build:css-env": "purgecss --css ./public/css/main.css --content ./public/index.html -o ./public/css/reducido.css -v"
+    "build:css": "sass ./src/main.scss ./docs/css/main.css",
+    "build:css-env": "purgecss --css ./docs/css/main.css --content ./docs/index.html -o ./docs/css/reducido.css -v"
   },
   "keywords": [],
   "author": "",
